@@ -5,7 +5,6 @@ import org.andengine.examples.AnalogOnScreenControlsExample;
 import org.andengine.examples.AnimatedSpritesExample;
 import org.andengine.examples.AutoParallaxBackgroundExample;
 import org.andengine.examples.BitmapFontExample;
-import org.andengine.examples.BoundCameraExample;
 import org.andengine.examples.CanvasTextureCompositingExample;
 import org.andengine.examples.CardinalSplineMoveModifierExample;
 import org.andengine.examples.CollisionDetectionExample;
@@ -17,7 +16,6 @@ import org.andengine.examples.ETC1TextureExample;
 import org.andengine.examples.EaseFunctionExample;
 import org.andengine.examples.EntityModifierExample;
 import org.andengine.examples.EntityModifierIrregularExample;
-import org.andengine.examples.HullAlgorithmExample;
 import org.andengine.examples.ImageFormatsExample;
 import org.andengine.examples.LevelLoaderExample;
 import org.andengine.examples.LineExample;
@@ -56,14 +54,12 @@ import org.andengine.examples.RunnablePoolUpdateHandlerExample;
 import org.andengine.examples.SVGTextureRegionExample;
 import org.andengine.examples.ScreenCaptureExample;
 import org.andengine.examples.SoundExample;
-import org.andengine.examples.SplitScreenExample;
 import org.andengine.examples.SpriteBatchExample;
 import org.andengine.examples.SpriteExample;
 import org.andengine.examples.SpriteRemoveExample;
 import org.andengine.examples.StrokeFontExample;
 import org.andengine.examples.SubMenuExample;
 import org.andengine.examples.TMXTiledMapExample;
-import org.andengine.examples.TextBreakExample;
 import org.andengine.examples.TextExample;
 import org.andengine.examples.TextMenuExample;
 import org.andengine.examples.TextureOptionsExample;
@@ -105,7 +101,7 @@ enum Example {
 //	AUGMENTEDREALITYHORIZON(AugmentedRealityHorizonExample.class, R.string.example_augmentedrealityhorizon),
 	AUTOPARALLAXBACKGROUND(AutoParallaxBackgroundExample.class, R.string.example_autoparallaxbackground),
 	BITMAPFONT(BitmapFontExample.class, R.string.example_bitmapfont),
-	BOUNDCAMERA(BoundCameraExample.class, R.string.example_boundcamera),
+//	BOUNDCAMERA(BoundCameraExample.class, R.string.example_boundcamera),
 	CARDINALSPLINEMOVEMODIFIER(CardinalSplineMoveModifierExample.class, R.string.example_cardinalsplinemovemodifier),
 	CANVASTEXTURECOMPOSITING(CanvasTextureCompositingExample.class, R.string.example_canvastexturecompositing),
 	CHANGEABLETEXT(TextExample.class, R.string.example_changeabletext),
@@ -118,7 +114,7 @@ enum Example {
 	ENTITYMODIFIER(EntityModifierExample.class, R.string.example_entitymodifier),
 	ENTITYMODIFIERIRREGULAR(EntityModifierIrregularExample.class, R.string.example_entitymodifierirregular),
 	ETC1TEXTURE(ETC1TextureExample.class, R.string.example_etc1texture),
-	HULLALGORITHM(HullAlgorithmExample.class, R.string.example_hullalgorithm),
+//	HULLALGORITHM(HullAlgorithmExample.class, R.string.example_hullalgorithm),
 	IMAGEFORMATS(ImageFormatsExample.class, R.string.example_imageformats),
 	LEVELLOADER(LevelLoaderExample.class, R.string.example_levelloader),
 	LINE(LineExample.class, R.string.example_line),
@@ -155,7 +151,7 @@ enum Example {
 	RUNNABLEPOOLUPDATEHANDLER(RunnablePoolUpdateHandlerExample.class, R.string.example_runnablepoolupdatehandler),
 	SCREENCAPTURE(ScreenCaptureExample.class, R.string.example_screencapture),
 	SOUND(SoundExample.class, R.string.example_sound),
-	SPLITSCREEN(SplitScreenExample.class, R.string.example_splitscreen),
+//	SPLITSCREEN(SplitScreenExample.class, R.string.example_splitscreen),
 	SPRITEBATCH(SpriteBatchExample.class, R.string.example_spritebatch),
 	SPRITE(SpriteExample.class, R.string.example_sprite),
 	SPRITEREMOVE(SpriteRemoveExample.class, R.string.example_spriteremove),
@@ -163,7 +159,7 @@ enum Example {
 	SUBMENU(SubMenuExample.class, R.string.example_submenu),
 	SVGTEXTUREREGION(SVGTextureRegionExample.class, R.string.example_svgtextureregion),
 	TEXT(TextExample.class, R.string.example_text),
-	TEXTBREAK(TextBreakExample.class, R.string.example_textbreak),
+//	TEXTBREAK(TextBreakExample.class, R.string.example_textbreak),
 	TEXTMENU(TextMenuExample.class, R.string.example_textmenu),
 	TEXTUREOPTIONS(TextureOptionsExample.class, R.string.example_textureoptions),
 	TEXTUREPACKER(TexturePackerExample.class, R.string.example_texturepacker),
